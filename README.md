@@ -39,8 +39,8 @@ _Emphasis_
 `system.out.println("hello");`
 
 
-number = input("Enter a number : ")
-print("Number you entered is ", number)
+    number = input("Enter a number : ")
+    print("Number you entered is ", number)
 
 
 
