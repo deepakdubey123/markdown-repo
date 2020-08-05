@@ -44,11 +44,11 @@ _Emphasis_
 
 
 ```
-~    public SodexoExpressClientBuilder cluster(String cluster)
-~    checkState(_cluster == null, "Cluster already set");
-~    _cluster = checkNotNull(cluster, "Cluster cannot be null");
-~    return this;
-~    }
+public SodexoExpressClientBuilder cluster(String cluster)
+checkState(_cluster == null, "Cluster already set");
+_cluster = checkNotNull(cluster, "Cluster cannot be null");
+return this;
+}
 ```
 
     public SodexoExpressClientBuilder cluster(String cluster) {
